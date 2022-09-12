@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FECD70;
+}
+
+#mainpage {
+    margin: 11% auto;
+}
+
+.title {
+    color: #fff3d7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 68px;
+    text-align: center;
+    text-shadow: 6px 4px 6px rgb(0 0 0 / 38%);
+    margin: 20px auto;
+}
+
+.container {
+    background-color: #fff3d7;
+    text-align: center;
+    margin: auto 30%;
+    padding: 50px 0;
+    border-radius: 35px;
+    box-shadow: 3px 15px 24px 6px rgb(0 0 0 / 8%);
+}
+
+.recipes {
+    list-style: none;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 50px auto;
+}
+
+.recipes a {
+    color: #f58e3a;
+    text-decoration: none;
+    text-shadow: 4px 3px 5px rgb(0 0 0 / 20%);
+}
+
+.recipes a:hover {
+    transition: 0.5s;
+    color: #c5850f;
+    font-size: 36px;
+}
+
+#recipe-page {
+    margin: auto 11%;
+}
+
+.homepage {
+    background-color: #fff3d7;
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 6px 8px 10px rgb(0 0 0 / 8%);
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f58e3a;
+}
+
+.homepage:hover {
+    transition: 0.5s;
+    color: #c5850f;
+}
+
+.picture {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 auto 50px;
+    border-radius: 20px;
+    box-shadow: 6px 17px 24px rgb(0 0 0 / 40%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    background-color: #fff3d7;
+    margin: 0 7% 35px;
+    padding: 15px 52px;
+    border-radius: 20px;
+    box-shadow: 7px 9px 8px rgb(0 0 0 / 8%);
+}
+
+.content h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #f3872e;
+    margin-bottom: 20px;
+}
+
+.content p, ul li, ol li {
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #8a6749;
+}
+
+.content a {
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', serif;
+    font-weight: bold;
+    color: #f58e3a;
+}
+
+.content a:hover {
+    transition: 0.5s;
+    color: #c5850f;
+}
